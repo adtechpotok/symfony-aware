@@ -1,0 +1,26 @@
+{
+    "name": "adtechpotok/symfony-aware",
+    "description": "Aware bundle",
+    "license": "MIT",
+    "version": "0.0.1",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "doctrine/doctrine-bundle": "^1.8",
+        "doctrine/orm": "^2.6",
+        "symfony/symfony": "3.4.*"
+    },
+    "require-dev": {
+        "lookyman/phpstan-symfony": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adtechpotok\\Aware\\": "src/"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "sort-packages": true
+    }
+}
