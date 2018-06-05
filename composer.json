@@ -2,14 +2,18 @@
     "name": "adtechpotok/symfony-aware",
     "description": "Aware bundle",
     "license": "MIT",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "symfony-bundle",
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1",
         "doctrine/doctrine-bundle": "^1.8",
         "doctrine/orm": "^2.6",
-        "symfony/framework-bundle": "^3.4|^4.1"
+        "symfony/framework-bundle": "^3.4|^4.1",
+        "symfony/property-access": "^3.4|^4.1",
+        "symfony/security": "^3.4|^4.1",
+        "symfony/stopwatch": "^3.4|^4.1",
+        "symfony/translation": "^3.4|^4.1"
     },
     "require-dev": {
         "lookyman/phpstan-symfony": "dev-master"
