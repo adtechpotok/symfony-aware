@@ -2,7 +2,7 @@
     "name": "adtechpotok/symfony-aware",
     "description": "Aware bundle",
     "license": "MIT",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "type": "symfony-bundle",
     "minimum-stability": "dev",
     "require": {
